@@ -11,13 +11,13 @@ tf.app.flags.DEFINE_integer\
 tf.app.flags.DEFINE_integer\
 ('epoch_end',22, """To which epoch ?""")
 tf.app.flags.DEFINE_string\
-("cover_dir", "/home/brijesh/Rebuttal/KODAK_experiments/KODAK_selected/cover/", "The path of inputs")
+("cover_dir", "/path/to/cover/", "The path of inputs")
 tf.app.flags.DEFINE_string\
-("secret_dir", "/home/brijesh/Rebuttal/KODAK_experiments/KODAK_selected/secret/", "The path of inputs")
+("secret_dir", "/path/to/secret/", "The path of inputs")
 tf.app.flags.DEFINE_string\
-("stego_dir", "/home/brijesh/Rebuttal/KODAK_experiments/KODAK_selected/nips_embedded/", "The path of inputs")
+("stego_dir", "/path/to/container/", "The path of inputs")
 tf.app.flags.DEFINE_string\
-("reveal_dir", "/home/brijesh/Rebuttal/KODAK_experiments/KODAK_selected/nips_extracted/", "The path of inputs")
+("reveal_dir", "/path/to/extracted/", "The path of inputs")
 tf.app.flags.DEFINE_string\
 ("checkpoint_dir", "./checkpoints/", "The path of saving model checkpoints.")
 
